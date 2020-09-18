@@ -5,17 +5,12 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ket qua tim kiem mat hang</title>
+    <title>Kết quả tìm kiếm mặt hàng</title>
 </head>
 <body>
-<style>
-    tr, th, td {
-        border: 1px solid black;
-    }
-</style>
-<h2>Ket qua tim kiem mat hang</h2>
-<a href="index.php"><button>Xem danh sach mat hang</button></a>
-<table style="border-collapse: collapse">
+<h2 style="text-align:center">Kết quả tìm kiếm mặt hàng</h2>
+<a href="index.php"><button class="btn btn-success">Xem danh sach mat hang</button></a>
+<table class="table table-striped">
     <tbody>
     <tr>
         <th>#</th>
